@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="STATIC/CSS/STYLE.CSS">
+    <title>Store</title>
+</head>
+<body>
+<div class="searchjs" id="search1"> 
+    <!-- Div For Javascript Search button -->
+    <button id="xbutton" class="xbtn">X</button>
+    <div class="searchjs2">
+        <input type="text" placeholder="Search ..."><img id="imgsrch2"class="imgsearch2"src="STATIC/IMG/search2.png" alt="LOGO">
+    </div>
+</div> 
+<!-- Div for JS Shopping cart -->
+<div id="shoppingcart" class="shoppingcart1">
+    <div class="shopcart">
+        <h6>Shopping Cart</h6>
+        <button id= "shopx"class="shopx">X</button>
+        <hr>
+        <h4 class="shoph4" style="color: black;">No products in the cart.</h4>
+        <button class="continueshop">Continue Shopping</button>
+    </div>
+</div>
+<!-- Div for quick view JS -->
+<div id="quickviewdiv"class="quickviewdiv">
+<div id="quickviewdiv2" class="quickviewdiv2">
+    <!-- that will be filled in js -->
+</div>
+</div>
+<!-- Customize Button -->
+<div class="custbutton10">
+    <button id="customizebtn"class="customizebtn"><img id="pallete" src=STATIC/IMG/pallete.png> Customize </button>
+</div>
+<div id="customize2" class="customize2">
+    <button id="xbtncustomize" class="xbtncustomize">X</button>
+    <h3 style="text-align: center;">T-shirts Store</h3>
+    <h5>Use the template as-is or try <br> different colors and fonts from the options below. <br> Try Other Colors</h5>
+    <hr>
+    <div class="custbutton">
+        <h3>Colors</h3>
+        <div id="buttoncust4"class="buttoncust"><button><img class ="buttoncolor" src="STATIC/IMG/color1.png"></button></div>
+        <div id="buttoncust5"class="buttoncust"><button><img class ="buttoncolor" src="STATIC/IMG/color2.png"></button></div>
+        <div id="buttoncust6"class="buttoncust"><button><img class ="buttoncolor" src="STATIC/IMG/color3.png"></button></div>
+        <h3>Fonts</h3>
+        <div id="buttoncust1" class="buttoncust"><button><img class ="buttoncolor" src="STATIC/IMG/font.png"></button></div>
+        <div id="buttoncust2" class="buttoncust"><button><img class ="buttoncolor" src="STATIC/IMG/font.png"></button></div>
+        <div id="buttoncust3" class="buttoncust"><button><img class ="buttoncolor" src="STATIC/IMG/font.png"></button></div>
+    </div>
+</div>
+<!-- List for media query -->
+<div id="lista" class="lista">
+    <div class="lista2">
+        <button id= "listax"class="listax">X</button>
+        <ul>
+            <li>LOG IN</li>
+            <li>BUY T-SHIRTS</li>
+            <li>WOMEN</li>
+            <li>MEN</li>
+            <li>ABOUT</li>
+            <li>CONTACT</li> 
+        </ul>
+    </div>
+</div>
+<!-- Now let's start with our html for the main page -->
+    <header>
+        <div class="nav-bar">
+            <div class="nav-left">
+            <ul>
+                <li>BUY T-SHIRTS</li>
+                <li>WOMEN</li>
+                <li>MEN</li>
+                <li>ABOUT</li>
+                <li>CONTACT</li> 
+            </ul>
+        </div>
+            <div class="nav-mid">
+            <img class="logo-img" src="STATIC/IMG/logo-regular.png" alt="LOGO">
+            </div>
+            <div class="nav-right">
+            <ul>
+                <li id="imgsrch"><img class="imgsearch"src="STATIC/IMG/Search.png" alt="LOGO"></li>
+                <li class="lidollar">$0.00</li>
+                <li><img id="cartid" class= "marketimg" src="STATIC/IMG/Market.png"></li>
+                <li class="loginlist">LOG IN</li>
+                <li><img id="loginlist"class="imgsearch4" src="STATIC/IMG/menu.png" alt=""></li>
+            </ul>
+            </div>
+        </div>
+    </header>
+<div id="shopcollection" class="Shop-Collection">
+        <div class="women">
+            <h6>Women</h6>
+            <h1>Slick. Modern. Awesome.</h1>
+            <button class="btn-shopcollection">Shop Collection</button>
+        </div>
+      <div class="img-women">
+        <img class ="womanimg"src="STATIC/IMG/hero.png" alt="womanPhoto">
+    </div>
+</div>
+    <div class="summercollection1"><h6>Summer Collection</h6>
+    <h2>Popular T-Shirts</h2></div>
+    <div class="tshirt-grid">
+        <!-- i wanted to try grid system this time instead of the flex that we used in group project (facebook clone project) -->
+        <div class="grid1">
+        <img class="quickview"src="STATIC/IMG/quickview.png">   
+        <img class ="hoverimg1"  src="STATIC/IMG/product1.jpg" alt="">
+        <img class="hoverimg" src="STATIC/IMG/product2hover.jpg" alt="">
+            <h6>Women</h6>
+            <h3>T-Shirt Name 1</h3>
+            <h4>35$ - $38</h4></div>
+        <div class="grid2">
+            <img class="quickview"src="STATIC/IMG/quickview.png">
+            <img  class ="hoverimg1" src="STATIC/IMG/product2.jpg" alt="">
+            <img class="hoverimg" src="STATIC/IMG/product1hover.jpg" alt="">
+            <h6>Women</h6>
+            <h3>T-Shirt Name 2</h3>
+            <h4>27$ - $31</h4></div>
+        <div class="grid3">
+            <img class="quickview"src="STATIC/IMG/quickview.png">
+            <img class ="hoverimg1"  src="STATIC/IMG/product3.jpg" alt="">
+            <img class="hoverimg" src="STATIC/IMG/product3hover.jpg" alt="">
+            <h6>Men</h6>
+            <h3>T-Shirt Name 3</h3>
+            <h4>33$ - $36</h4></div>
+        <div class="grid4">
+            <img class="quickview"src="STATIC/IMG/quickview.png">
+            <img  class ="hoverimg1" src="STATIC/IMG/product4.jpg" alt="">
+            <img class="hoverimg" src="STATIC/IMG/product2hover.jpg" alt="">
+            <h6>Men</h6>
+            <h3>T-Shirt Name 4</h3>
+            <h4>43$ - $46</h4></div>
+        <div class="grid5">
+            <img class="imghover2" src="STATIC/IMG/product6.jpg" alt="">
+        <h6>Men</h6>
+        <h2>The base collection - Ideal every day.</h2>
+        <button>Shop Now</button>
+        </div>
+        <div class="grid6"><img  class="imghover3" src="STATIC/IMG/product5.jpg" alt=""></div>
+    </div>
+    <div class="newcollection">
+        <div class="newcollection2">
+                <h6 style="color: white;">NEW COLLECTION</h6>
+                <h2 style="color: white;">Be different in your own way!<br> Find your unique style.</h2>
+                <button class="btn-shopcollection">Shop Collection</button></div>
+    </div>
+    <div class="springsummer">
+        <div id="springsummer" class="springsummer2"><img class="imgspringsummer" src="STATIC/IMG/collection.jpg" alt="womanPhoto"></div>
+        <div class="springsummer3"><h6>Women</h6>
+            <h1>Spring Summer Collection</h1>
+            <h6>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum dicta laboriosam nulla? Assumenda expedita repudiandae eius maxime doloremque itaque ea!</h6>
+            <button class="btn-shopcollection">See Whole Collection</button></div>
+    </div>
+    <div class="summertshirt"><h6>Summer Collection</h6>
+        <h2>On Sale T-Shirts</h2></div>
+        <div class="tshirt-grid">
+            <div class="grid1">
+            <img class="quickview"src="STATIC/IMG/quickview.png">   
+            <img  class ="hoverimg1"  src="STATIC/IMG/product7.jpg" alt="">
+            <img class="hoverimg" src="STATIC/IMG/product1hover.jpg" alt="">
+                <h6>Women</h6>
+                <h3>T-Shirt Name 5</h3>
+                <h4>30$ - $32</h4></div>
+            <div class="grid2">
+                <img class="quickview"src="STATIC/IMG/quickview.png">
+                <img  class ="hoverimg1" src="STATIC/IMG/product8.jpg" alt="">
+                <img class="hoverimg" src="STATIC/IMG/product1hover.jpg" alt="">
+                <h6>men</h6>
+                <h3>T-Shirt Name 6</h3>
+                <h4>31$ - $38</h4></div>
+            <div class="grid3">
+                <img class="quickview"src="STATIC/IMG/quickview.png">
+                <img class ="hoverimg1" src="STATIC/IMG/product3.jpg" alt="">
+                <img class="hoverimg" src="STATIC/IMG/product3hover.jpg" alt="">
+                <h6>Men</h6>
+                <h3>T-Shirt Name 3</h3>
+                <h4>33$ - $36</h4></div>
+            <div class="grid4">
+                <img class="quickview"src="STATIC/IMG/quickview.png">
+                <img class ="hoverimg1" src="STATIC/IMG/product1.jpg" alt="">
+                <img class="hoverimg" src="STATIC/IMG/product2hover.jpg" alt="">
+                <h6>Women</h6>
+                <h3>T-Shirt Name 1</h3>
+                <h4>35$ - $38</h4></div>
+        </div>
+    <div class="reviews">
+            <h2>Reviews</h2>
+            <h4 style="text-decoration: underline; cursor: pointer; color: black;">High Quality T-shirts.. Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Vero enim perspiciatis doloremque pariatur,<br> voluptatum ab earum expedita consectetur dicta dignissimos.</h4>
+            <img class="star" src="STATIC/IMG/Star.png">
+            <img class="star" src="STATIC/IMG/Star.png">
+            <img class="star" src="STATIC/IMG/Star.png">
+            <img class="star" src="STATIC/IMG/Star.png">
+            <img class="star" src="STATIC/IMG/Star.png">
+            <h6>JANE OLIVER</h6>
+        </div>
+        <div class="tshirt-grid2">
+            <div class="grid10"> <img class="grid10img" src="STATIC/IMG/catmen.jpg">
+                <div class="grid101">
+                    <h6 class="h6grid">Men</h6>
+                    <h5 class="h5grid">5 Products</h5>
+                </div> 
+        </div>
+            <div class="grid20"><img class="grid20img"src="STATIC/IMG/catwomen.jpg">
+                <div class="grid201">
+                    <h6 class="h6grid">Women</h6>
+                    <h5 class="h5grid">5 Products</h5>
+                </div>
+        </div>
+        </div>
+        <!-- Now the last division (footer) -->
+    <footer id="footer">
+        <div class="footer1">
+            <h2>Subscribe To Get Offers In Your Inbox</h2>
+            <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+            <input type="email" id="email" name="email" placeholder="Your email address"><button id ="emailbtn"class="btn-shopcollection">Subscribe</button>
+            <p id="parajs" style="color: red;"></p>
+        </div>
+        <div class="footer2">
+                <ul>
+                    <li>Buy T-Shirts</li>
+                    <li>Women</li>
+                    <li>Men</li>
+                    <li>About</li>
+                    <li>Contact</li> 
+                </ul>
+            </div>
+         <div class="footer3">
+                <ul>
+                    <li><img class="logos" src="STATIC/IMG/facebook.png"></li>
+                    <li><img class="logos" src="STATIC/IMG/twitter.png"></li>
+                    <li><img class="logos" src="STATIC/IMG/instagram.png"></li>
+                </ul>
+            </div>
+        <div class="copyright"><p>Copyright © 2023 T-Shirts Store | Powered by T-Shirts Store</p></div>
+    </footer>
+    <script src="STATIC/JS/Script.js"></script>
+</body>
+</html>
